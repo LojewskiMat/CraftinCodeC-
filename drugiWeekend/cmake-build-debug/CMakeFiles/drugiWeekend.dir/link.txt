@@ -1,0 +1,3 @@
+"F:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\drugiWeekend.dir/objects.a
+F:\MinGW\bin\ar.exe cr CMakeFiles\drugiWeekend.dir/objects.a @CMakeFiles\drugiWeekend.dir\objects1.rsp
+F:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\drugiWeekend.dir/objects.a -Wl,--no-whole-archive  -o drugiWeekend.exe -Wl,--out-implib,libdrugiWeekend.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\drugiWeekend.dir\linklibs.rsp
