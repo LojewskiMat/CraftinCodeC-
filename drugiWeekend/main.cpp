@@ -30,14 +30,36 @@ int sumOfComprimeIntegers(int a) {
 }
 
 void znajdzSumeKwadratow(int n) {
-    for (int i{0}; i <= sqrtf(n/2); i++) {
+    int count{0};
+    for (int i{0}; i <= sqrtf(n / 2); i++) {
         if ((int) sqrtf(n - i * i) == sqrtf(n - i * i))
+//            count++;
             std::cout << i << "^2 + " << sqrtf(n - i * i) << "^2" << std::endl;
     }
+    //pierwsze rozwiązanie
     /*for (int i{0}; i < n/2; i++) {
         if ((int) sqrtf(i) == sqrtf(i) && (int) sqrtf(n - i) == sqrtf(n - i))
             std::cout << sqrtf(i) << "^2 + " << sqrtf(n - i) << "^2" << std::endl;
     }*/
+//    return count;
+}
+
+int add(int a, int b)
+{
+    std::cout << "Dwa int jako argumenty" << std::endl;
+    return a+b;
+}
+
+float add(float a, float b)
+{
+    std::cout << "Dwa float jako argumenty" << std::endl;
+    return a+b;
+}
+
+int add(int a, float b)
+{
+    std::cout << "Int i float jako argumenty" << std::endl;
+    return a+b;
 }
 
 
@@ -110,7 +132,7 @@ int main() {
 
     std::cout << sumOfComprimeIntegers(readStandartIoInt()) << std::endl;*/
 
-    znajdzSumeKwadratow(100);
 
+    znajdzSumeKwadratow(10000);
     return 0;
 }
