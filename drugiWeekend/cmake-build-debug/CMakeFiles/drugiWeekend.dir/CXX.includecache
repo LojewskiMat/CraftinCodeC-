@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-G:/Users/usiek/CLionProjects/drugiWeekend/main.cpp
+G:/Users/usiek/CLionProjects/CraftinCodeC-/drugiWeekend/main.cpp
 iostream
 -
 iomanip
+-
+math.h
 -
 

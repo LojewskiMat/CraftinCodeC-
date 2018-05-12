@@ -1,0 +1,3 @@
+G:/Users/usiek/CLionProjects/CraftinCodeC-/KalkulatorONP/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Users/usiek/CLionProjects/CraftinCodeC-/KalkulatorONP/cmake-build-debug/CMakeFiles/KalkulatorONP.dir
+G:/Users/usiek/CLionProjects/CraftinCodeC-/KalkulatorONP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
